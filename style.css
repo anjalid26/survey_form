@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --primary-color: #d9b3ff; 
+    --secondary-color: #4d4d4d;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+#title {
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    color: var(--secondary-color);
+    background-color: white;
+    margin: auto;
+    width: 95%;
+    padding: 1%;
+}
+
+#survey-form {
+    text-align: center;
+}
+
+.row-tab {
+    padding: 1%;
+}
+
+.label-tab {
+    padding: 1%;
+}
+
+.input-tab {
+    /* padding: 1%; */
+}
+
+.submit-form {
+    padding: 1%;
+}
+
+.clear-form {
+    padding: 1%;
+}
+
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem; 
+}
+
+/* links */
+a:hover {
+    font-weight: bold;
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    margin: 0px;
+    width: 100%;
+    position: relative;
+}
+
+.footer .links {
+    color: var(--secondary-color);
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: medium;
+    font-size: medium;
+    color: var(--secondary-color);
+    padding: 0rem 4rem;
+}
